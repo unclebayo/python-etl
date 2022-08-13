@@ -1,0 +1,186 @@
+name,native,rtl,country_code
+Afar,Afar,,aa
+Abkhazian,Аҧсуа,,ab
+Afrikaans,Afrikaans,,af
+Akan,Akana,,ak
+Amharic,አማርኛ,,am
+Aragonese,Aragonés,,an
+Arabic,العربية,1.0,ar
+Assamese,অসমীয়া,,as
+Avar,Авар,,av
+Aymara,Aymar,,ay
+Azerbaijani,Azərbaycanca / آذربايجان,,az
+Bashkir,Башҡорт,,ba
+Belarusian,Беларуская,,be
+Bulgarian,Български,,bg
+Bihari,भोजपुरी,,bh
+Bislama,Bislama,,bi
+Bambara,Bamanankan,,bm
+Bengali,বাংলা,,bn
+Tibetan,བོད་ཡིག / Bod skad,,bo
+Breton,Brezhoneg,,br
+Bosnian,Bosanski,,bs
+Catalan,Català,,ca
+Chechen,Нохчийн,,ce
+Chamorro,Chamoru,,ch
+Corsican,Corsu,,co
+Cree,Nehiyaw,,cr
+Czech,Čeština,,cs
+Old Church Slavonic / Old Bulgarian,словѣньскъ / slověnĭskŭ,,cu
+Chuvash,Чăваш,,cv
+Welsh,Cymraeg,,cy
+Danish,Dansk,,da
+German,Deutsch,,de
+Divehi,ދިވެހިބަސް,1.0,dv
+Dzongkha,ཇོང་ཁ,,dz
+Ewe,Ɛʋɛ,,ee
+Greek,Ελληνικά,,el
+English,English,,en
+Esperanto,Esperanto,,eo
+Spanish,Español,,es
+Estonian,Eesti,,et
+Basque,Euskara,,eu
+Persian,فارسی,1.0,fa
+Peul,Fulfulde,,ff
+Finnish,Suomi,,fi
+Fijian,Na Vosa Vakaviti,,fj
+Faroese,Føroyskt,,fo
+French,Français,,fr
+West Frisian,Frysk,,fy
+Irish,Gaeilge,,ga
+Scottish Gaelic,Gàidhlig,,gd
+Galician,Galego,,gl
+Guarani,Avañe'ẽ,,gn
+Gujarati,ગુજરાતી,,gu
+Manx,Gaelg,,gv
+Hausa,هَوُسَ,1.0,ha
+Hebrew,עברית,1.0,he
+Hindi,हिन्दी,,hi
+Hiri Motu,Hiri Motu,,ho
+Croatian,Hrvatski,,hr
+Haitian,Krèyol ayisyen,,ht
+Hungarian,Magyar,,hu
+Armenian,Հայերեն,,hy
+Herero,Otsiherero,,hz
+Interlingua,Interlingua,,ia
+Indonesian,Bahasa Indonesia,,id
+Interlingue,Interlingue,,ie
+Igbo,Igbo,,ig
+Sichuan Yi,ꆇꉙ / 四川彝语,,ii
+Inupiak,Iñupiak,,ik
+Ido,Ido,,io
+Icelandic,Íslenska,,is
+Italian,Italiano,,it
+Inuktitut,ᐃᓄᒃᑎᑐᑦ,,iu
+Japanese,日本語,,ja
+Javanese,Basa Jawa,,jv
+Georgian,ქართული,,ka
+Kongo,KiKongo,,kg
+Kikuyu,Gĩkũyũ,,ki
+Kuanyama,Kuanyama,,kj
+Kazakh,Қазақша,,kk
+Greenlandic,Kalaallisut,,kl
+Cambodian,ភាសាខ្មែរ,,km
+Kannada,ಕನ್ನಡ,,kn
+Korean,한국어,,ko
+Kanuri,Kanuri,,kr
+Kashmiri,कश्मीरी / كشميري,1.0,ks
+Kurdish,Kurdî / كوردی,1.0,ku
+Komi,Коми,,kv
+Cornish,Kernewek,,kw
+Kyrgyz,Кыргызча,,ky
+Latin,Latina,,la
+Luxembourgish,Lëtzebuergesch,,lb
+Ganda,Luganda,,lg
+Limburgian,Limburgs,,li
+Lingala,Lingála,,ln
+Laotian,ລາວ / Pha xa lao,,lo
+Lithuanian,Lietuvių,,lt
+Luba-Katanga,Tshiluba,,lu
+Latvian,Latviešu,,lv
+Malagasy,Malagasy,,mg
+Marshallese,Kajin Majel / Ebon,,mh
+Maori,Māori,,mi
+Macedonian,Македонски,,mk
+Malayalam,മലയാളം,,ml
+Mongolian,Монгол,,mn
+Moldovan,Moldovenească,,mo
+Marathi,मराठी,,mr
+Malay,Bahasa Melayu,,ms
+Maltese,bil-Malti,,mt
+Burmese,မြန်မာစာ,,my
+Nauruan,Dorerin Naoero,,na
+Norwegian Bokmål,Norsk bokmål,,nb
+North Ndebele,Sindebele,,nd
+Nepali,नेपाली,,ne
+Ndonga,Oshiwambo,,ng
+Dutch,Nederlands,,nl
+Norwegian Nynorsk,Norsk nynorsk,,nn
+Norwegian,Norsk,,no
+South Ndebele,isiNdebele,,nr
+Navajo,Diné bizaad,,nv
+Chichewa,Chi-Chewa,,ny
+Occitan,Occitan,,oc
+Ojibwa,ᐊᓂᔑᓈᐯᒧᐎᓐ / Anishinaabemowin,,oj
+Oromo,Oromoo,,om
+Oriya,ଓଡ଼ିଆ,,or
+Ossetian / Ossetic,Иронау,,os
+Panjabi / Punjabi,ਪੰਜਾਬੀ / पंजाबी / پنجابي,,pa
+Pali,Pāli / पाऴि,,pi
+Polish,Polski,,pl
+Pashto,پښتو,1.0,ps
+Portuguese,Português,,pt
+Quechua,Runa Simi,,qu
+Raeto Romance,Rumantsch,,rm
+Kirundi,Kirundi,,rn
+Romanian,Română,,ro
+Russian,Русский,,ru
+Rwandi,Kinyarwandi,,rw
+Sanskrit,संस्कृतम्,,sa
+Sardinian,Sardu,,sc
+Sindhi,सिनधि,,sd
+Northern Sami,Sámegiella,,se
+Sango,Sängö,,sg
+Serbo-Croatian,Srpskohrvatski / Српскохрватски,,sh
+Sinhalese,සිංහල,,si
+Slovak,Slovenčina,,sk
+Slovenian,Slovenščina,,sl
+Samoan,Gagana Samoa,,sm
+Shona,chiShona,,sn
+Somalia,Soomaaliga,,so
+Albanian,Shqip,,sq
+Serbian,Српски,,sr
+Swati,SiSwati,,ss
+Southern Sotho,Sesotho,,st
+Sundanese,Basa Sunda,,su
+Swedish,Svenska,,sv
+Swahili,Kiswahili,,sw
+Tamil,தமிழ்,,ta
+Telugu,తెలుగు,,te
+Tajik,Тоҷикӣ,,tg
+Thai,ไทย / Phasa Thai,,th
+Tigrinya,ትግርኛ,,ti
+Turkmen,Туркмен / تركمن,,tk
+Tagalog / Filipino,Tagalog,,tl
+Tswana,Setswana,,tn
+Tonga,Lea Faka-Tonga,,to
+Turkish,Türkçe,,tr
+Tsonga,Xitsonga,,ts
+Tatar,Tatarça,,tt
+Twi,Twi,,tw
+Tahitian,Reo Mā`ohi,,ty
+Uyghur,Uyƣurqə / ئۇيغۇرچە,,ug
+Ukrainian,Українська,,uk
+Urdu,اردو,1.0,ur
+Uzbek,Ўзбек,,uz
+Venda,Tshivenḓa,,ve
+Vietnamese,Tiếng Việt,,vi
+Volapük,Volapük,,vo
+Walloon,Walon,,wa
+Wolof,Wollof,,wo
+Xhosa,isiXhosa,,xh
+Yiddish,ייִדיש,1.0,yi
+Yoruba,Yorùbá,,yo
+Zhuang,Cuengh / Tôô / 壮语,,za
+Chinese,中文,,zh
+Zulu,isiZulu,,zu
