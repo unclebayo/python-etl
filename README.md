@@ -27,8 +27,8 @@ For the sake of this task, we will first be getting the data from the Github dir
 I considered working with the data in CSV instead of the .json format in came with. Hence, I moved the data from the original .json source to a STAGING environment (.stg, _stg extensions in the code base).
 Note that, at this stage, I noticed some of the tables do not have headers which were tricky at this point. So I manually assigned headers to this data as at the point of moving from source to staging. Hence in my approach I two functions to cater for such
 
- a. def data_without_header (for continents, countries.3to2, countries.2to3)
- b. def data_with_header (for all other tables)
+ 1. def data_without_header (for continents, countries.3to2, countries.2to3)
+  2. def data_with_header (for all other tables)
 
 In moving the data from source to staging, the following were considered:
  1. I want the data the way it is without any transformation or changes at this point 
@@ -42,7 +42,7 @@ To do this, a MERGE query (which can be found in update.sql file) which will fir
 This approach was used for all tables except "CURRENCY". This is because there it doesn't primarily have a source table, hence I looked at the data in COUNTRIES table, then used an SQL INSERT INTO SELECT to get data into our new CURRENCY table having two columns (name - country and currency, name will serve as a FK). However, the same process of updating and load is still been followed using the MERGE implementation.
 
 ## RECOMMENDATIONS AND TO-DO
- 1. To make this more efficient and to eleiminate plenty of manual runs, we can use a scheduler like Airflow to run the peipelines where each functions in our implementations will be run as different tasks
+ 1. To make this more efficient and to eliminate plenty of manual runs, we can use a scheduler like Airflow to run the peipelines where each functions in our implementations will be run as different tasks
  2. The data contains a NULL data across different tables, hence results from queries might not be efficient at first sight. To curb this, a dictionary should be provided first on all tables and also business decisions should be made on how to treat the data
 
 ## HOW TO RUN THE CODES AND SEE RESULT INDEPENDENTLY
