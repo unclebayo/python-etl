@@ -1,3 +1,4 @@
+#Import all necessary python libraries
 import requests as req
 import pandas as pd
 import os
@@ -5,6 +6,7 @@ import psycopg2 as ps
 from sqlalchemy import create_engine
 
 
+#get data from the source which is in a git repository
 def get_data(file_name, columns):
     url = 'https://raw.githubusercontent.com/annexare/Countries/master/data/{}.json'.format(file_name)
     data = req.get(url).json()
@@ -18,6 +20,7 @@ def get_data_with_header(file_name):
     df ['country_code'] = data.keys()
     return df
 
+#save the data in a custom file path as csv into the staging environment
 def save_staging_file(df):
     file_dir = os.path.abspath(os.getcwd()) +'/staging_output'
     file_staged = file_dir + '/staged_data.csv'
@@ -32,6 +35,7 @@ def save_staging_file(df):
     
     return file_staged
 
+#Staging environment connection creds
 def stage_monitoring_data(file_staged, staging_tbl):
     # connect to db
     host = 'localhost'
@@ -47,7 +51,7 @@ def stage_monitoring_data(file_staged, staging_tbl):
                 port=5438)
     
     cur = conn.cursor()
-    engine = create_engine('postgresql://postgres:postgres@localhost:5438/postgres')
+    engine = create_engine('postgresql://postgres:postgres@localhost:5438/postgres') #create engine for storing connection string
     
     my_df= pd.read_csv(file_staged)
     my_df.to_sql(staging_tbl, con=engine, if_exists='replace',index=None)
@@ -55,10 +59,10 @@ def stage_monitoring_data(file_staged, staging_tbl):
     
     
     cur.close()
-    print("all records successfully pulled and stored in staging tables in the database")
+    print("all records successfully pulled and stored in staging tables in the database") #confirmation that load is completed
     return my_df
 
-
+#production environment connection credentials
 def update_all():
     host = 'localhost'
     username = 'postgres'
@@ -74,13 +78,13 @@ def update_all():
     
     cur = conn.cursor()
     print(">>>>>>>>>>>>>>>>> connect to prod tables and upsert prod table and ensuring idempotence")
-    cur.execute(open("update.sql", "r").read())
+    cur.execute(open("update.sql", "r").read()) #Run all the MERGE queries in the update.sql file as stated in the README
     conn.commit()
     cur.close()
-    print(">>>>>>>>>>>>>>>>> ETL complete and all records successfully pulled and updated")
+    print(">>>>>>>>>>>>>>>>> ETL complete and all records successfully pulled and updated") #confirmation that load is done
     
 
-
+#specificaly load data without headers into the staging environment
 def data_without_headers():
     table = {
         'continents':['continent_stg', ['continent_code','continent_full_name']],
@@ -92,6 +96,7 @@ def data_without_headers():
         file_output = save_staging_file(git_data) 
         stage_monitoring_data(file_staged=file_output, staging_tbl=value[0])
 
+#specificaly load data with headers into the staging environment
 def data_with_headers():
     table = {
         'countries':'country_stg',
