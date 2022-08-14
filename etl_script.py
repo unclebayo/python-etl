@@ -107,7 +107,7 @@ def data_with_headers():
         file_output = save_staging_file(git_data) 
         stage_monitoring_data(file_staged=file_output, staging_tbl=value)
 
-if __name__ == "__main__":
+if __name__ == "__main__"
     data_without_headers()
     data_with_headers()
     update_all()
